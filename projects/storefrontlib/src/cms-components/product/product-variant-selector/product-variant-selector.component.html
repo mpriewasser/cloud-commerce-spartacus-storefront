@@ -54,7 +54,7 @@
         *ngFor="let option of variant.options"
         value="{{ option.url }}"
         [selected]="option.code === product.code"
-        >{{ option.variantOptionQualifiers[0].value }}</option
+        >{{ option.variantOptionQualifiers[1].value }}</option
       >
     </select>
     <a href="#" class="size-guide" title="{{ sizeGuideLabel }}">{{
